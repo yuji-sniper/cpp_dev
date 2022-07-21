@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+  dev:
+    container_name: cpp_dev
+    build: .
+    volumes:
+      - type: bind
+        source: .
+        target: /cpp_dev
+    stdin_open: true
+    tty: true
+    working_dir: /cpp_dev/src
