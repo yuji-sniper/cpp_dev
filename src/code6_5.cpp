@@ -40,5 +40,4 @@ int main() {
     }
 
     cout << right << endl;
-    
 }
